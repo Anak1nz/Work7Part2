@@ -30,7 +30,7 @@
         {
             this.btnSave = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
             this.btnOpen = new System.Windows.Forms.Button();
             this.lst = new System.Windows.Forms.ListBox();
             this.lstFromfile = new System.Windows.Forms.ListBox();
@@ -60,14 +60,15 @@
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
-            // button3
+            // btnExit
             // 
-            this.button3.Location = new System.Drawing.Point(324, 386);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnExit.Location = new System.Drawing.Point(316, 386);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(75, 23);
+            this.btnExit.TabIndex = 2;
+            this.btnExit.Text = "Выход";
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // btnOpen
             // 
@@ -130,7 +131,7 @@
             this.Controls.Add(this.lstFromfile);
             this.Controls.Add(this.lst);
             this.Controls.Add(this.btnOpen);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.btnSave);
             this.Name = "Form1";
@@ -144,7 +145,7 @@
 
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnAdd;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnOpen;
         private System.Windows.Forms.ListBox lst;
         private System.Windows.Forms.ListBox lstFromfile;
